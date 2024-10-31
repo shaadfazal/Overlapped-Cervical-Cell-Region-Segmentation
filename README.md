@@ -12,14 +12,14 @@ This work takes inspiration from the Meta-Polyp model developed by Quoc-Huy Trin
 > Q. Trinh, "Meta-Polyp: A Baseline for Efficient Polyp Segmentation," *2023 IEEE 36th International Symposium on Computer-Based Medical Systems (CBMS)*, pp. 742-747. [Link to MetaPolyp Repository](https://github.com/huyquoctrinh/MetaPolyp-CBMS2023).
 
 ## Architecture
-The proposed architecture leverages a modified U-Net structure, incorporating specialized blocks to enhance segmentation performance for overlapping cervical cell regions. Below is a schematic representation of the architecture used in this study.
+The proposed architecture leverages a cascaded neural network architecture employing the Meta-Polyp network followed by a modified U-Net neural network, to enhance segmentation performance for overlapped portion of cervical cells. Below is a schematic representation of the architecture used in this study.
 
 ![Architecture Diagram](methodology_github.png)
 
 ## Results
 
 ### Qualitative Results
-Our model demonstrates significant improvement in accurately delineating cell boundaries and separating overlapping regions. The segmentation outputs below illustrate the model's effectiveness in various cell overlap scenarios.
+We present the qualititave results of segmentation of overlapped portion of cervical cells using our proposed method. Our model demonstrates significant accuracy in segmenting the overlapped portions of cervical cells. 
 
 ![Qualitative Results](results_github.png)
 
