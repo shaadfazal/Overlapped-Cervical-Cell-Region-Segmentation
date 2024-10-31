@@ -3,6 +3,8 @@
 ## Introduction
 This repository contains the code implementation in the form of google colab notebook 'Cervical_overlapped_seg.ipynb' for the paper *"Overlapping Cervical Cell Region Segmentation"* by Shaad Fazal and Richard M. Dansereau, presented at the 2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA). 
 
+Author: Shaad Fazal
+
 Deep learning algorithms have made phenomenal inroads into the domain of medical image formation and analysis, including in the segmentation of cervical cell cytology images. Cervical cancer is one of the most common cancers affecting women worldwide. Medical imaging plays a pivotal role in the detection and diagnosis of cervical cancer. Segmentation of overlapping cells is one of the major challenges in analyzing these images due to the varying contrast of cell cytoplasm and a wide range of cell overlap ratios. The next step in this domain is to segment the overlapped portion of cervical cells to harness the full scope of cellular information.
 
 We propose to adopt the Meta-Polyp segmentation method for our task, which combines the MetaFormer baseline model elements, such as neural network transformers with U-Net architecture, with some minor tweaks in hyperparameters. The Meta-Polyp neural network is able to capture the overlapped region of cervical cells to an extent. We then refine our segmentation results by applying a modified U-Net neural network that employs transfer learning in its encoder stage to obtain the final segmentation masks. Using this novel deep learning image segmentation pipeline, we achieve accurate results for the segmentation of the overlapped region of cervical cells.
