@@ -1,7 +1,7 @@
 # Overlapping Cervical Cell Region Segmentation
 
 ## Introduction
-This repository contains the code implementation for the paper *"Overlapping Cervical Cell Region Segmentation"* by Shaad Fazal and Richard M. Dansereau, presented at the 2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA).
+This repository contains the code implementation in the form of google colab notebook 'Cervical_overlapped_seg.ipynb' for the paper *"Overlapping Cervical Cell Region Segmentation"* by Shaad Fazal and Richard M. Dansereau, presented at the 2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA). 
 
 Deep learning algorithms have made phenomenal inroads into the domain of medical image formation and analysis, including in the segmentation of cervical cell cytology images. Cervical cancer is one of the most common cancers affecting women worldwide. Medical imaging plays a pivotal role in the detection and diagnosis of cervical cancer. Segmentation of overlapping cells is one of the major challenges in analyzing these images due to the varying contrast of cell cytoplasm and a wide range of cell overlap ratios. The next step in this domain is to segment the overlapped portion of cervical cells to harness the full scope of cellular information.
 
