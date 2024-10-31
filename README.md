@@ -26,7 +26,7 @@ Our model demonstrates significant improvement in accurately delineating cell bo
 ### Quantitative Results
 The model achieved promising metrics in terms of segmentation accuracy, as summarized in the table below.
 
-![Quantitative Results](results_metrics_github.png)
+![Quantitative Results](result_metrics_github.png)
 
 ## Citation
 
